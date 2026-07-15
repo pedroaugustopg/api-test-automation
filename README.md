@@ -6,6 +6,8 @@ automatizados, verificando status HTTP, estrutura da resposta, cabeçalhos, par�
 Este projeto foi desenvolvido para automação de testes de APIs REST utilizando boas práticas de organização, validação de respostas HTTP e estruturação de 
 testes com Rest Assured e JUnit 5.
 
+---
+
 ## Tecnologias
 
 * Java
@@ -13,6 +15,8 @@ testes com Rest Assured e JUnit 5.
 * JUnit 5
 * Rest Assured
 * Hamcrest
+
+---
 
 ## Estrutura do Projeto
 
@@ -30,6 +34,8 @@ src
 └── pom.xml
 ```
 
+---
+
 ## Funcionalidades
 
 * Validação de Status Code
@@ -42,11 +48,15 @@ src
 * Validação do tempo de resposta
 * Extração de dados da resposta
 
+---
+
 ## API Utilizada
 
 ```
 https://jsonplaceholder.typicode.com
 ```
+
+---
 
 ## Executando os Testes
 
@@ -67,6 +77,8 @@ Execute os testes:
 ```bash
 mvn clean test
 ```
+
+---
 
 ## Dependências
 
